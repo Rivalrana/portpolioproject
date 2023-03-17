@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* start of navbarr styling */
+.navbar {
+  padding: 10px 10px;
+  border: 5px solid yellowgreen;
+}
+.navcont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.hambar {
+  justify-self: end;
+  padding-right: 10px;
+  /* padding-top: 10px; */
+  color: black;
+}
+.home {
+  display: none;
+}
+/* hero section stline */
+
+.hero {
+  height: calc(100vh - 58px);
+  background-color: chocolate;
+}
+.herocont {
+  height: calc(100vh - 58px);
+  width: 95vw;
+}
+.heroc {
+  position: relative;
+  top: 40%;
+  left: 20%;
+}
+/* .heroimg {
+  display: none;
+}
+@media screen and (min-width: 786px) {
+  .herocont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .heroimg {
+    display: block;
+  }
+  .heroimg img {
+    width: 300px;
+    height: 100px;
+  }
+} */
+.heroc h1 {
+  font-size: 2rem;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+#span {
+  border-top: 5px solid gold;
+  padding-top: 5px;
+}
+.heroc p {
+  font-weight: bold;
+  color: bisque;
+  padding-bottom: 3px;
+  letter-spacing: 1px;
+}
+.btn {
+  text-decoration: none;
+  color: black;
+  background-color: bisque;
+  display: inline-block;
+  padding: 2px;
+  border: 1px solid greenyellow;
+  border-radius: 3px;
+  letter-spacing: 2px;
+}
+
+.listlink {
+  padding-top: 10px;
+}
+.smedia {
+  list-style: none;
+}
+.smedia li {
+  display: inline-block;
+  margin-right: 8px;
+}
+.smedia a {
+  color: black;
+  background: bisque;
+  border-radius: 50%;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  padding: 8px;
+}
+.smedia a:hover {
+  color: blueviolet;
+  transform: scale(1.5);
+}
+.heroimg {
+  display: none;
+}
+@media screen and (min-width: 786px) {
+  .herocont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .heroimg {
+    display: block;
+    position: relative;
+
+    padding-left: 100px;
+    padding-top: 150px;
+  }
+  .heroimg img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid grey;
+    border-radius: 13px;
+  }
+  .heroimg img:hover {
+    border: 5px solid ghostwhite;
+    transform: scale(1.2);
+  }
+}
